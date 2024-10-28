@@ -21,6 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'client = catch_the_turtle.catch_the_turtle:main',
+            'pos = catch_the_turtle.turtle_pos_checker:main',
+            'mover = catch_the_turtle.autopilot:main'
         ],
     },
 )
